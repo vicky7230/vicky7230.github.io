@@ -48,7 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb:  I am a passionate self-taught Android application programmer. I have a proven track record of building apps using best practices, and I am a quick learner capable of adapting to any new technology. I have a thirst for cutting-edge technologies, that comes around. My skill set includes proficiency in Kotlin, Java, MVVM, Jetpack Compose, Coroutines, Dagger2, Dagger Hilt, Firebase, Room DB, CICD and Push Notification.
+blurb: I am a passionate self-taught Android application programmer. I have a proven track record of building apps using best practices, and I am a quick learner capable of adapting to any new technology. I have a thirst for cutting-edge technologies, that comes around. My skill set includes proficiency in Kotlin, Java, MVVM, Jetpack Compose, Coroutines, Dagger2, Dagger Hilt, Firebase, Room DB, CICD and Push Notification.
 blurb-btn-link: "/about"
 blurb-btn-name: know more
 
@@ -146,7 +146,7 @@ services:
       name: Bug-fixing,
       icon: ti-support,
       description: "I have collaboated wiht clients and developers to help fix their bugs.",
-      active: ,# Add true to select section
+      active,
     }
   - {
       name: Android App Development,
@@ -158,7 +158,7 @@ services:
       name: Addign new features,
       icon: ti-pencil-alt2,
       description: "I have worked with multiple clients to enahnce their App by adding new features.",
-      active: ,# Add true to select section
+      active,
     }
 
 #-------------------------------
@@ -166,19 +166,19 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/squel.webp"
+    url: "https://play.google.com/store/apps/details?id=com.mildlyclassic.clientbooking"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/sequelite.webp"
+    url: "https://play.google.com/store/apps/details?id=com.mildlyclassic.sequelda"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/ipt2.jpg"
+    url: "https://play.google.com/store/apps/details?id=com.app.ipatientd"
 
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
+  - image: "assets/images/portfolio/sunny.webp"
+    url: "https://play.google.com/store/apps/details?id=com.vicky7230.sunny"
 
-  - image: "assets/images/portfolio/item-5.png"
+  - image: "assets/images/portfolio/revu.webp"
     url: "#"
 
 # Portfolio Page
