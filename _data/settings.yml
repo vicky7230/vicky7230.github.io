@@ -48,8 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+blurb:  I am a passionate self-taught Android application programmer. I have a proven track record of building apps using best practices, and I am a quick learner capable of adapting to any new technology. I have a thirst for cutting-edge technologies, that comes around. My skill set includes proficiency in Kotlin, Java, MVVM, Jetpack Compose, Coroutines, Dagger2, Dagger Hilt, Firebase, Room DB, CICD and Push Notification.
 blurb-btn-link: "/about"
 blurb-btn-name: know more
 
@@ -88,10 +87,10 @@ team:
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: Kotlin, color: "#fdb157", value: "90%" }
+  - { name: Android, color: "#9473e6", value: "90%" }
+  - { name: Coroutines, color: "#bdecf6", value: "70%" }
+  - { name: Android App Developement, color: "#ffbcaa", value: "80%" }
 
 #-------------------------------
 # Exprerience Section
@@ -99,22 +98,22 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
-      icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
+      name: Software Developer,
+      icon: "agrim.jpeg",
+      date: "Oct 2016 - Oct 2017",
+      organization: "Agrim Education ServicesAgrim",
     }
   - {
-      name: UX & UI Designer,
-      icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
+      name: Android Engineer,
+      icon: "mildly.jpeg",
+      date: "Nov 2017 - Apr 2020",
+      organization: "Mildly Classic Technologies Pvt. Ltd.",
     }
   - {
-      name: Senior UI Designer,
-      icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
+      name: Sr. Android Engineer,
+      icon: "moe.jpeg",
+      date: "Jun 2020 - Present",
+      organization: "MoEngage Inc",
     }
 
 #-------------------------------
@@ -123,24 +122,19 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
-    }
-  - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: Bachelors in Information Technology,
+      date: "2011 - 2015",
+      organization: "Triguna Sen School of Technology, Assam University, Silchar",
     }
   - {
       name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
+      date: "2010",
+      organization: "Kendriya Vidalaya, RRL, Jorhat",
     }
   - {
       name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      date: "2008",
+      organization: "Kendriya Vidalaya, AFS Memaura, Lucknow",
     }
 
 #-------------------------------
@@ -149,21 +143,21 @@ education:
 services-title: Services
 services:
   - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: Bug-fixing,
+      icon: ti-support,
+      description: "I have collaboated wiht clients and developers to help fix their bugs.",
       active: ,# Add true to select section
     }
   - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: Android App Development,
+      icon: ti-android,
+      description: "I have been developing scalable Android Apps from scratch for last 7 years.",
       active: true, # Add true to select section
     }
   - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: Addign new features,
+      icon: ti-pencil-alt2,
+      description: "I have worked with multiple clients to enahnce their App by adding new features.",
       active: ,# Add true to select section
     }
 
