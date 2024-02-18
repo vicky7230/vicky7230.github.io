@@ -2,12 +2,12 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Vipin Kumar
 logo:
 author: themefisher
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
+email: vicky7230@gmail.com
+phone: +91 8708153354
 address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Vipin Kumar <br> Android developer
 
 social:
   - { icon: "ti-facebook", link: "#" }
