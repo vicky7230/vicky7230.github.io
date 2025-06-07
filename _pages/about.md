@@ -1,18 +1,18 @@
 ---
 layout: about
 title: About Me
-author: Johnathan Smith
-image: assets/images/about/author.jpg
+author: Vipin Kumar
+image: assets/images/about/vipin.jpg
 signature: assets/images/about/signature.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+I’m Vipin Kumar, a Senior Android Developer with 8 years of experience in building scalable and high-performance Android apps.
+I specialize in Kotlin, Jetpack Compose, and modern architecture patterns like MVVM and MVI.
+Currently, I’ve been leading feature development and architecture improvements at Rapido and MoEngage.
+I’ve worked extensively with Room, Coroutines, Flow, Hilt, and Clean Architecture principles.
+My experience spans both SDK and app development for B2B and B2C use cases.
+I enjoy crafting clean, maintainable code with a strong focus on user experience and performance.
+I’ve published multiple apps on the Play Store, including Rapido Captain, Revu, and IpatientD.
+Open to remote or hybrid roles in the Delhi NCR region.
+Outside of work, I explore new tech stacks and build open-source side projects.
+I’m available to join immediately and always eager to contribute to impactful mobile products.
