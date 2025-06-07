@@ -48,7 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: I am a passionate self-taught Android application programmer. I have a proven track record of building apps using best practices, and I am a quick learner capable of adapting to any new technology. I have a thirst for cutting-edge technologies, that comes around. My skill set includes proficiency in Kotlin, Java, MVVM, Jetpack Compose, Coroutines, Dagger2, Dagger Hilt, Firebase, Room DB, CICD and Push Notification.
+blurb: I am a passionate self-taught Android application programmer. I have a proven track record of building apps using best practices, and I am a quick learner capable of adapting to any new technology. I have a thirst for cutting-edge technologies, that comes around. My skill set includes proficiency in Kotlin, Java, MVVM, Jetpack Compose, Coroutines, Dagger2, Dagger Hilt, Firebase, Room DB and Push Notification.
 blurb-btn-link: "/about"
 blurb-btn-name: know more
 
@@ -100,7 +100,7 @@ experience:
   - {
       name: Software Developer,
       icon: "agrim.jpeg",
-      date: "Oct 2016 - Oct 2017",
+      date: "Jan 2017 - Oct 2017",
       organization: "Agrim Education Services",
     }
   - {
@@ -112,8 +112,14 @@ experience:
   - {
       name: Sr. Android Engineer,
       icon: "moe.jpeg",
-      date: "Jun 2020 - Present",
+      date: "Jun 2020 - Mar 2024",
       organization: "MoEngage Inc",
+    }
+  - {
+      name: Sr. Product Engineer - Android,
+      icon: "rapido.png",
+      date: "Mar 2024 - Apr 2025",
+      organization: "Rapido",
     }
 
 #-------------------------------
@@ -180,6 +186,9 @@ portfolio-home-items:
 
   - image: "assets/images/portfolio/revu.webp"
     url: "https://play.google.com/store/apps/details?id=com.app.rivisio"
+
+  - image: "assets/images/portfolio/rapido.webp"
+    url: "https://play.google.com/store/apps/details?id=com.rapido.rider"
 
 # Portfolio Page
 portfolio-label:
