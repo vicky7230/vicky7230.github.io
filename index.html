@@ -1,9 +1,142 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
 
-{% include hero-section.html %} {% include about-section.html %} {% include
-skills-section.html %} {% include experience-section.html %} {% include
-education-section.html %} {% include services-section.html %} {% include
-portfolio-section.html %} {% include testimonial-section.html %} {% include
-client-section.html %} {% include blog-section.html %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Max — backend developer specializing in Django and Laravel.">
+    <meta property="og:title" content="Max Miller — Backend Developer">
+    <meta property="og:description" content="Django & Laravel backend developer. Django, Laravel, Docker, CI/CD.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maxcodez.ir/">
+    <title>Vipin Kumar — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png+xml" href="assets/favicon-vk-64.png">
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="assets/favicon-vk-32.png">
+    <link rel="alternate icon" type="image/png" sizes="64x64" href="assets/favicon-vk-64.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-vk.png">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <header class="nav">
+        <div class="nav-inner container">
+            <a href="#" class="logo"><img src="assets/favicon-vk-64.png" alt="MM"></a>
+            <nav class="nav-links">
+                <a href="#about" data-i18n="nav_about">About</a>
+                <a href="#skills" data-i18n="nav_skills">Skills</a>
+                <a href="#projects" data-i18n="nav_projects">Projects</a>
+                <a href="#open-source">Open Source</a>
+                <a href="#experience" data-i18n="nav_experience">Experience</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-accent" data-i18n="nav_contact">Contact</a>
+                <button id="themeToggle" class="btn btn-outline-sm" type="button" aria-label="Toggle theme">☀</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- HERO -->
+        <section class="hero container">
+            <div class="hero-text">
+                <span class="badge" data-i18n="hero_badge">AVAILABLE FOR WORK</span>
+                <h1 data-i18n="hero_name">Vipin Kumar</h1>
+                <p class="lede" data-i18n="hero_role">Software Engineer — Android &amp; API. Building apps since 2017.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-outline" data-i18n="hero_cta_projects">View Projects ↓</a>
+                    <a href="#contact" class="btn btn-outline" data-i18n="hero_cta_hello">Say Hello ↗</a>
+                </div>
+                <div class="stats">
+                    <div class="stat"><strong>8+</strong><span data-i18n="stat_years">Years coding</span></div>
+                    <div class="stat"><strong>10+</strong><span data-i18n="stat_projects">Shipped projects</span></div>
+                    <div class="stat"><strong>2</strong><span data-i18n="stat_stacks">Core stacks</span></div>
+                </div>
+            </div>
+            <div class="hero-media"><div class="hero-frame"><img src="assets\hero.jpg" alt="Hero visual" onerror="this.style.display='none'"></div></div>
+        </section>
+        <!-- ABOUT -->
+        <section id="about" class="about container reveal">
+            <h2><span data-i18n="about_title1">About</span><br><span class="accent" data-i18n="about_title2">Me.</span></h2>
+            <div class="about-grid">
+                <div class="panel panel-outline">Creative and detail-oriented Senior Android Developer with 8 years of experience building scalable, high-performance Android applications with Kotlin and Java.</div>
+                <div class="panel panel-solid">I specialize in Jetpack Compose, Coroutines, Flow, MVVM, MVI, and Clean Architecture. I enjoy crafting clean, maintainable software that solves real-world problems with a user-first mindset. Open to remote and hybrid opportunities in Delhi NCR.</div>
+                <div class="feature-card"><div class="feature-icon">&lt;/&gt;</div><h3>Android Development</h3><p>Kotlin, Java, Jetpack Compose, Coroutines, Flow, Room, Retrofit, Hilt, and Firebase.</p></div>
+                <div class="feature-card"><div class="feature-icon">◆</div><h3>Architecture &amp; Delivery</h3><p>MVVM, MVI, MVP, Clean Architecture, Git, Play Billing, and full app development from requirements to deployment.</p></div>
+            </div>
+        </section>
+        <!-- SKILLS -->
+        <section id="skills" class="skills container reveal">
+            <h2>Skills &amp; Tools.</h2>
+            <div class="skill-group"><span class="skill-label">LANGUAGES</span><div class="pills"><span class="pill pill-fill">Kotlin</span><span class="pill">Java</span></div></div>
+            <div class="skill-group"><span class="skill-label">ANDROID &amp; LIBRARIES</span><div class="pills"><span class="pill pill-fill">Jetpack Compose</span><span class="pill">Coroutines</span><span class="pill pill-fill">Flow</span><span class="pill">Dagger2</span><span class="pill pill-fill">Hilt</span><span class="pill">Room</span><span class="pill pill-fill">Retrofit</span><span class="pill">LiveData</span></div></div>
+            <div class="skill-group"><span class="skill-label">ARCHITECTURE</span><div class="pills"><span class="pill pill-fill">MVVM</span><span class="pill">MVI</span><span class="pill pill-fill">MVP</span><span class="pill">Clean Architecture</span></div></div>
+            <div class="skill-group"><span class="skill-label">TOOLS &amp; SERVICES</span><div class="pills"><span class="pill pill-fill">Android Studio</span><span class="pill pill-fill">Git</span><span class="pill pill-fill">Firebase</span><span class="pill">Play Billing</span><span class="pill">Couchbase Lite</span></div></div>
+        </section>
+        <!-- PROJECTS -->
+        <section id="projects" class="projects container reveal">
+            <h2>Work.</h2>
+            <div class="project-card"><div class="project-media"><img src="assets/amex.jpg" alt="Amex GBT Mobile screenshot"></div><div class="project-body"><div class="tags"><span class="tag tag-fill">ANDROID</span><span class="tag">TRAVEL</span></div><h3>Amex GBT Mobile</h3><p>Business travel app for managing bookings, itineraries, check-ins, transportation, accommodations, expenses, and real-time trip support.</p><a href="https://play.google.com/store/apps/details?id=com.mttnow.android.gbt.prod" class="btn btn-outline-sm" target="_blank" rel="noopener">View on Google Play ↗</a></div></div>
+            <div class="project-card"><div class="project-media"><img src="assets/neo.jpg" alt="Neo Mobile App screenshot"></div><div class="project-body"><div class="tags"><span class="tag tag-fill">ANDROID</span><span class="tag">EXPENSES</span></div><h3>Neo Mobile App</h3><p>Business travel and expense management app with trip recommendations, interactive itineraries, receipt capture, expense reports, and mobile approvals.</p><a href="https://play.google.com/store/apps/details?id=com.kds.mobility" class="btn btn-outline-sm" target="_blank" rel="noopener">View on Google Play ↗</a></div></div>
+            <div class="project-card"><div class="project-media"><img src="assets/rapido.jpg" alt="Rapido Captain screenshot"></div><div class="project-body"><div class="tags"><span class="tag tag-fill">ANDROID</span><span class="tag">MOBILITY</span></div><h3>Rapido Captain</h3><p>Driver and delivery partner app for accepting ride requests, tracking orders, calculating earnings, and managing flexible work.</p><a href="https://play.google.com/store/apps/details?id=com.rapido.rider" class="btn btn-outline-sm" target="_blank" rel="noopener">View on Google Play ↗</a></div></div>
+            <div class="project-card"><div class="project-media"><img src="assets/sequel-logistics.png" alt="Sequel Logistics screenshot"></div><div class="project-body"><div class="tags"><span class="tag tag-fill">ANDROID</span><span class="tag">LOGISTICS</span></div><h3>Sequel Logistics</h3><p>End-to-end logistics management app for shipment management, invoicing, track and trace, and operational reporting.</p><a href="https://play.google.com/store/apps/details?id=com.mildlyclassic.clientbooking" class="btn btn-outline-sm" target="_blank" rel="noopener">View on Google Play ↗</a></div></div>
+            <div class="project-card"><div class="project-media"><img src="assets/sequelite.png" alt="Sequelite screenshot"></div><div class="project-body"><div class="tags"><span class="tag tag-fill">ANDROID</span><span class="tag">FIELD OPERATIONS</span></div><h3>Sequelite</h3><p>Internal logistics operations app supporting attendance, shipment pickup, shipment check-in and check-out, delivery, and client visits.</p><a href="https://play.google.com/store/apps/details?id=com.mildlyclassic.sequelda" class="btn btn-outline-sm" target="_blank" rel="noopener">View on Google Play ↗</a></div></div>
+        </section>
+        <!-- OPEN SOURCE APPS -->
+        <section id="open-source" class="projects container reveal">
+            <h2>Open Source Apps.</h2>
+            <div class="project-card"><div class="project-media oss-mark"><span>TASKER</span></div><div class="project-body"><div class="tags"><span class="tag tag-fill">KOTLIN</span><span class="tag">CLEAN ARCHITECTURE</span></div><h3>TASKER Multi-Module</h3><p>A modern modular Android task and notes app built with clean architecture and current Android technologies.</p><a href="https://github.com/vicky7230/TASKER-multi-module" class="btn btn-outline-sm" target="_blank" rel="noopener">View on GitHub ↗</a></div></div>
+            <div class="project-card"><div class="project-media oss-mark"><span>MOVIES</span></div><div class="project-body"><div class="tags"><span class="tag tag-fill">KOTLIN</span><span class="tag">JETPACK COMPOSE</span></div><h3>Multi-Module Clean Architecture</h3><p>A modern Android movie search app built with Jetpack Compose and Clean Architecture.</p><a href="https://github.com/vicky7230/Multi-Module-clean-architecture" class="btn btn-outline-sm" target="_blank" rel="noopener">View on GitHub ↗</a></div></div>
+            <div class="project-card"><div class="project-media oss-mark"><span>SUNNY</span></div><div class="project-body"><div class="tags"><span class="tag tag-fill">KOTLIN</span><span class="tag">MVVM</span></div><h3>Sunny</h3><p>A weather app written in Kotlin using the MVVM architecture pattern.</p><a href="https://github.com/vicky7230/Sunny" class="btn btn-outline-sm" target="_blank" rel="noopener">View on GitHub ↗</a></div></div>
+            <div class="project-card"><div class="project-media oss-mark"><span>HEADLINES</span></div><div class="project-body"><div class="tags"><span class="tag tag-fill">KOTLIN</span><span class="tag">OFFLINE-FIRST</span></div><h3>Headlines</h3><p>A Kotlin news app demonstrating MVVM architecture with offline functionality.</p><a href="https://github.com/vicky7230/Headlines" class="btn btn-outline-sm" target="_blank" rel="noopener">View on GitHub ↗</a></div></div>
+            <div class="project-card"><div class="project-media oss-mark"><span>PAPRIKA</span></div><div class="project-body"><div class="tags"><span class="tag tag-fill">JAVA</span><span class="tag">MVP</span></div><h3>Paprika</h3><p>A recipe-finding Android app written in Java with the MVP architecture pattern.</p><a href="https://github.com/vicky7230/Paprika" class="btn btn-outline-sm" target="_blank" rel="noopener">View on GitHub ↗</a></div></div>
+            <div class="project-card"><div class="project-media oss-mark"><span>CUCUMBER</span></div><div class="project-body"><div class="tags"><span class="tag tag-fill">KOTLIN</span><span class="tag">MVP</span></div><h3>Cucumber</h3><p>A recipe-finding Android app written in Kotlin with the MVP architecture pattern.</p><a href="https://github.com/vicky7230/Cucumber" class="btn btn-outline-sm" target="_blank" rel="noopener">View on GitHub ↗</a></div></div>
+        </section>
+        <!-- EXPERIENCE -->
+        <section id="experience" class="experience container reveal">
+            <h2>Experience</h2>
+            <div class="exp-card"><div class="exp-date">Jul 2025 — Present<span class="badge badge-sm">CURRENT</span></div><div class="exp-body"><h3>Android Developer III</h3><p class="exp-sub">American Express Global Business Travel · Gurugram, Haryana · Hybrid</p><p>Working full-time as an Android Developer III, contributing to mobile products for global business travel.</p></div></div>
+            <div class="exp-card"><div class="exp-date">Mar 2024 — Apr 2025</div><div class="exp-body"><h3>Senior Product Engineer — Android</h3><p class="exp-sub">Rapido · Bengaluru</p><p>Built and shipped Android features using Kotlin, Jetpack Compose, MVVM, Coroutines, Flow, Room, Retrofit, and Clean Architecture. Developed BYOB and Rent Mode, migrated suspension data to Room, and refactored Live Order Support business logic into the backend-for-frontend layer.</p></div></div>
+            <div class="exp-card"><div class="exp-date">Jun 2020 — Mar 2024</div><div class="exp-body"><h3>Senior Android Developer</h3><p class="exp-sub">MoEngage · Bengaluru</p><p>Maintained and enhanced the MoEngage Android SDK, led development of a new Notification Center UI, and supported clients with SDK integrations and troubleshooting.</p></div></div>
+            <div class="exp-card"><div class="exp-date">Nov 2017 — Apr 2020</div><div class="exp-body"><h3>Android Engineer</h3><p class="exp-sub">Mildly Classic Technologies Pvt Ltd · Bengaluru</p><p>Built B2B and B2C logistics applications from requirements through deployment, including real-time location tracking, attendance systems, and hub operation tools.</p></div></div>
+            <div class="exp-card"><div class="exp-date">Jan 2017 — Oct 2017</div><div class="exp-body"><h3>Software Developer</h3><p class="exp-sub">Agrim Education Services · Bengaluru</p><p>Developed a cloud-based POS Android application for offline purchases using Couchbase Lite and a Magento backend integrated through PHP APIs.</p></div></div>
+        </section>
+        <!-- CONTACT -->
+        <section id="contact" class="contact container reveal">
+            <div class="contact-left">
+                <h2><span data-i18n="contact_title1">Let's Build</span><br><span class="accent" data-i18n="contact_title2">Together.</span></h2>
+                <a href="assets/resume.pdf" class="btn btn-outline" download="MaxMiller_Resume.pdf" data-i18n="contact_resume">↓ Download Resume</a>
+                <div class="contact-info">
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=programmers378@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-row"><span class="icon-box">✉</span> programmers378@gmail.com</a>
+                    <a href="https://miniwicket.ir" class="contact-row"><span class="icon-box">🌐</span> miniwicket.ir</a>
+                    <a href="https://github.com/cmd-3324" class="contact-row" target="_blank" rel="noopener"><span class="icon-box"><svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></span> <span data-i18n="contact_github">GitHub Profile</span></a>
+                    <a href="https://www.patreon.com/cw/MaxMiller573" class="contact-row" target="_blank" rel="noopener"><span class="icon-box"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-label="Patreon"><path d="M15.58 2.25c-4.27 0-7.73 3.46-7.73 7.73 0 4.24 3.46 7.7 7.73 7.7 4.28 0 7.74-3.46 7.74-7.7 0-4.27-3.46-7.73-7.74-7.73zm-9.18 2.7h2.79v12.92H6.4V4.95zm6.05 4.33c2.14 0 3.88 1.73 3.88 3.87 0 2.14-1.74 3.87-3.88 3.87-2.15 0-3.89-1.73-3.89-3.87 0-2.14 1.74-3.87 3.89-3.87z"/></svg></span> Patreon</a>
+                    <a href="https://bsky.app/profile/maxmiller2005.bsky.social" class="contact-row" target="_blank" rel="noopener"><span class="icon-box"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-label="Bluesky"><path d="M5.7 3.02C8.05 4.79 10.59 8.38 11.5 10.3c.91-1.92 3.45-5.51 5.8-7.28 1.7-1.28 4.45-2.26 4.45.87 0 .63-.36 5.26-.57 6-.73 2.57-3.39 3.23-5.76 2.77 4.14.8 5.21 3.46 2.94 6.12-4.31 5.04-6.24-1.27-6.72-2.89-.09-.3-.13-.44-.14-.32-.01-.12-.05.02-.14.32-.48 1.62-2.4 7.93-6.72 2.89-2.27-2.66-1.2-5.32 2.94-6.12-2.37.46-5.03-.2-5.76-2.77-.21-.74-.57-5.37-.57-6 0-3.13 2.75-2.15 4.45-.87z"/></svg></span> Bluesky</a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row"><label><span data-i18n="form_name">NAME *</span><input type="text" name="name" required></label><label><span data-i18n="form_email">EMAIL *</span><input type="email" name="email" required></label></div>
+                <label><span data-i18n="form_type">PROJECT TYPE</span><select name="project_type"><option data-i18n="form_type_web">Web Application</option><option data-i18n="form_type_api">API / Backend</option><option data-i18n="form_type_other">Other</option></select></label>
+                <label><span data-i18n="form_message">MESSAGE *</span><textarea name="message" rows="4" required data-i18n-ph="form_message_ph" placeholder="Tell me about your project..."></textarea></label>
+                <button type="submit" class="btn btn-send" data-i18n="form_send">Send Message ➤</button><p id="formStatus" class="form-status"></p>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span class="logo">MM</span>
+            <div class="footer-icons">
+                <a href="https://miniwicket.ir">🌐</a>
+                <a href="https://github.com/cmd-3324" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+                <a href="https://www.patreon.com/cw/MaxMiller573" target="_blank" rel="noopener" aria-label="Patreon"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M15.58 2.25c-4.27 0-7.73 3.46-7.73 7.73 0 4.24 3.46 7.7 7.73 7.7 4.28 0 7.74-3.46 7.74-7.7 0-4.27-3.46-7.73-7.74-7.73zm-9.18 2.7h2.79v12.92H6.4V4.95zm6.05 4.33c2.14 0 3.88 1.73 3.88 3.87 0 2.14-1.74 3.87-3.88 3.87-2.15 0-3.89-1.73-3.89-3.87 0-2.14 1.74-3.87 3.89-3.87z"/></svg></a>
+                <a href="https://bsky.app/profile/maxmiller2005.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M5.7 3.02C8.05 4.79 10.59 8.38 11.5 10.3c.91-1.92 3.45-5.51 5.8-7.28 1.7-1.28 4.45-2.26 4.45.87 0 .63-.36 5.26-.57 6-.73 2.57-3.39 3.23-5.76 2.77 4.14.8 5.21 3.46 2.94 6.12-4.31 5.04-6.24-1.27-6.72-2.89-.09-.3-.13-.44-.14-.32-.01-.12-.05.02-.14.32-.48 1.62-2.4 7.93-6.72 2.89-2.27-2.66-1.2-5.32 2.94-6.12-2.37.46-5.03-.2-5.76-2.77-.21-.74-.57-5.37-.57-6 0-3.13 2.75-2.15 4.45-.87z"/></svg></a>
+                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=programmers378@gmail.com">✉</a>
+            </div>
+            <a href="#" class="btn btn-outline-sm" id="backToTop" data-i18n="back_to_top">↑ Back to top</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

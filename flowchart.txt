@@ -1,0 +1,25 @@
+📁
+├── 📁 assets
+│   ├── 📁 fonts
+│   │   ├── 📄 iranyekanwebbold.e298fdc6.e298fdc6.woff
+│   │   ├── 📄 iranyekanwebmedium.2d4f96e5.2d4f96e5.woff
+│   │   └── 📄 iranyekanwebregular.b95439c1.b95439c1.woff
+│   ├── 📁 projects
+│   │   ├── 📄 live-talk.webp
+│   │   └── 📄 mini-digi.webp
+│   ├── 📄 apple-touch-icon.webp
+│   ├── 📄 favicon-32.webp
+│   ├── 📄 favicon-64.webp
+│   ├── 📄 hero.webp
+│   ├── 🎬 mini-digi.mp4
+│   └── 📕 resume.pdf
+├── 📄 CNAME
+├── 📄 Dockerfile
+├── 📝 flowchart.txt
+├── ✨ i18n.js
+├── 🌐 index.html
+├── ⚖️ LICENSE
+├── ✨ main.js
+├── 📘 README.md
+├── 📄 sitemap.xml
+└── 🎨 style.css
