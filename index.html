@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" dir="ltr" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Max — backend developer specializing in Django and Laravel.">
-    <meta property="og:title" content="Max Miller — Backend Developer">
-    <meta property="og:description" content="Django & Laravel backend developer. Django, Laravel, Docker, CI/CD.">
+    <meta name="description" content="Vipin Kumar — Senior Android Developer building reliable mobile products for travel, mobility, and logistics.">
+    <meta property="og:title" content="Vipin Kumar — Senior Android Developer">
+    <meta property="og:description" content="Senior Android Developer specializing in Kotlin, Jetpack Compose, and modern Android architecture.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://maxcodez.ir/">
     <title>Vipin Kumar — Software Engineer</title>
@@ -23,17 +23,20 @@
     <div class="scroll-progress" id="scrollProgress"></div>
     <header class="nav">
         <div class="nav-inner container">
-            <a href="#" class="logo"><img src="assets/favicon-vk-64.png" alt="MM"></a>
-            <nav class="nav-links">
+            <a href="#" class="logo"><img src="assets/favicon-vk-64.png" alt="VK"></a>
+            <nav class="nav-links" id="siteNav">
                 <a href="#about" data-i18n="nav_about">About</a>
+                <a href="#focus">What I Build</a>
                 <a href="#skills" data-i18n="nav_skills">Skills</a>
                 <a href="#projects" data-i18n="nav_projects">Projects</a>
+                <a href="#case-studies">Case Studies</a>
                 <a href="#open-source">Open Source</a>
                 <a href="#experience" data-i18n="nav_experience">Experience</a>
             </nav>
             <div class="nav-actions">
                 <a href="#contact" class="btn btn-accent" data-i18n="nav_contact">Contact</a>
                 <button id="themeToggle" class="btn btn-outline-sm" type="button" aria-label="Toggle theme">☀</button>
+                <button id="menuToggle" class="btn btn-outline-sm menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="siteNav">☰</button>
             </div>
         </div>
     </header>
@@ -41,20 +44,33 @@
         <!-- HERO -->
         <section class="hero container">
             <div class="hero-text">
-                <span class="badge" data-i18n="hero_badge">AVAILABLE FOR WORK</span>
-                <h1 data-i18n="hero_name">Vipin Kumar</h1>
-                <p class="lede" data-i18n="hero_role">Software Engineer — Android &amp; API. Building apps since 2017.</p>
+                <span class="hero-kicker">Senior Android Developer · Kotlin Specialist</span>
+                <h1>Building Android products for <span>real-world</span> work.</h1>
+                <p class="lede">I design and ship reliable mobile experiences for travel, mobility, and logistics—turning complex workflows into products people can use confidently every day.</p>
+                <p class="hero-context"><span>Currently</span> Android Developer III at American Express Global Business Travel · Gurugram, India · Hybrid</p>
                 <div class="hero-actions">
-                    <a href="#projects" class="btn btn-outline" data-i18n="hero_cta_projects">View Projects ↓</a>
-                    <a href="#contact" class="btn btn-outline" data-i18n="hero_cta_hello">Say Hello ↗</a>
+                    <a href="#projects" class="btn btn-accent">See My Work ↓</a>
+                    <a href="assets/resume.pdf" class="btn btn-outline" download="Vipin_Kumar_Resume.pdf">Download Resume ↗</a>
                 </div>
-                <div class="stats">
-                    <div class="stat"><strong>8+</strong><span data-i18n="stat_years">Years coding</span></div>
-                    <div class="stat"><strong>10+</strong><span data-i18n="stat_projects">Shipped projects</span></div>
-                    <div class="stat"><strong>2</strong><span data-i18n="stat_stacks">Core stacks</span></div>
-                </div>
+                <div class="hero-tags" aria-label="Core strengths"><span>Kotlin</span><span>Jetpack Compose</span><span>MVVM / MVI</span><span>Clean Architecture</span></div>
+                <div class="hero-links"><a href="https://github.com/vicky7230" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/vipin-kumar-ba0540100/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="mailto:vicky7230@gmail.com">Email ↗</a></div>
             </div>
-            <div class="hero-media"><div class="hero-frame"><img src="assets\hero.jpg" alt="Hero visual" onerror="this.style.display='none'"></div></div>
+            <div class="hero-media"><div class="hero-frame"><img src="assets\hero.jpg" alt="Vipin Kumar, Senior Android Developer" onerror="this.style.display='none'"></div><div class="hero-caption"><span>Based in</span><strong>Gurugram, India</strong></div></div>
+            <div class="hero-proof">
+                <article><span>01</span><strong>8+ years shipping Android</strong><p>Production experience across Kotlin, Java, Compose, and modern architecture.</p></article>
+                <article><span>02</span><strong>Products people depend on</strong><p>Travel, driver, delivery, expense, and logistics workflows used in the real world.</p></article>
+                <article><span>03</span><strong>From architecture to delivery</strong><p>Comfortable taking a feature from product intent through implementation and release.</p></article>
+            </div>
+        </section>
+        <!-- WHAT I BUILD -->
+        <section id="focus" class="focus container reveal">
+            <div class="section-intro"><span class="eyebrow">WHAT I BUILD</span><h2>Android products with a job to do.</h2><p>I work across the full product surface—from architecture and feature delivery to the details that make everyday workflows feel simple.</p></div>
+            <div class="focus-grid">
+                <article class="focus-card"><span class="focus-number">01</span><h3>Business Travel</h3><p>Trip planning, bookings, receipts, approvals, and support for people constantly on the move.</p></article>
+                <article class="focus-card"><span class="focus-number">02</span><h3>Mobility</h3><p>Driver and delivery workflows that help partners accept work, complete rides, and track earnings.</p></article>
+                <article class="focus-card"><span class="focus-number">03</span><h3>Logistics</h3><p>Operational tools for shipments, field teams, tracking, attendance, and secure delivery networks.</p></article>
+                <article class="focus-card"><span class="focus-number">04</span><h3>Open Source</h3><p>Small, focused Android apps that explore architecture, offline-first behavior, and modern Kotlin.</p></article>
+            </div>
         </section>
         <!-- ABOUT -->
         <section id="about" class="about container reveal">
@@ -83,6 +99,15 @@
             <div class="project-card"><div class="project-media"><img src="assets/sequel-logistics.png" alt="Sequel Logistics screenshot"></div><div class="project-body"><div class="tags"><span class="tag tag-fill">ANDROID</span><span class="tag">LOGISTICS</span></div><h3>Sequel Logistics</h3><p>End-to-end logistics management app for shipment management, invoicing, track and trace, and operational reporting.</p><a href="https://play.google.com/store/apps/details?id=com.mildlyclassic.clientbooking" class="btn btn-outline-sm" target="_blank" rel="noopener">View on Google Play ↗</a></div></div>
             <div class="project-card"><div class="project-media"><img src="assets/sequelite.png" alt="Sequelite screenshot"></div><div class="project-body"><div class="tags"><span class="tag tag-fill">ANDROID</span><span class="tag">FIELD OPERATIONS</span></div><h3>Sequelite</h3><p>Internal logistics operations app supporting attendance, shipment pickup, shipment check-in and check-out, delivery, and client visits.</p><a href="https://play.google.com/store/apps/details?id=com.mildlyclassic.sequelda" class="btn btn-outline-sm" target="_blank" rel="noopener">View on Google Play ↗</a></div></div>
         </section>
+        <!-- CASE STUDIES -->
+        <section id="case-studies" class="case-studies container reveal">
+            <div class="section-intro"><span class="eyebrow">FEATURED CASE STUDIES</span><h2>From product problem to mobile workflow.</h2><p>A closer look at the kinds of systems and user journeys I build.</p></div>
+            <div class="case-grid">
+                <article class="case-card"><div class="case-top"><span class="tag tag-fill">TRAVEL</span><span class="case-index">01</span></div><h3>Amex GBT Mobile</h3><div class="case-row"><strong>Problem</strong><span>Business travel is full of moving parts, changes, receipts, and support requests.</span></div><div class="case-row"><strong>Focus</strong><span>One mobile place for trip details, bookings, check-ins, expenses, and assistance.</span></div></article>
+                <article class="case-card"><div class="case-top"><span class="tag tag-fill">MOBILITY</span><span class="case-index">02</span></div><h3>Rapido Captain</h3><div class="case-row"><strong>Problem</strong><span>Captains need fast, dependable workflows while working on the move.</span></div><div class="case-row"><strong>Focus</strong><span>Onboarding, ride and delivery workflows, earnings, and flexible work management.</span></div></article>
+                <article class="case-card"><div class="case-top"><span class="tag tag-fill">LOGISTICS</span><span class="case-index">03</span></div><h3>Sequel Logistics</h3><div class="case-row"><strong>Problem</strong><span>Critical shipments require accurate visibility from booking through delivery.</span></div><div class="case-row"><strong>Focus</strong><span>Shipment management, tracking, invoicing, and operational reporting.</span></div></article>
+            </div>
+        </section>
         <!-- OPEN SOURCE APPS -->
         <section id="open-source" class="projects container reveal">
             <h2>Open Source Apps.</h2>
@@ -106,13 +131,12 @@
         <section id="contact" class="contact container reveal">
             <div class="contact-left">
                 <h2><span data-i18n="contact_title1">Let's Build</span><br><span class="accent" data-i18n="contact_title2">Together.</span></h2>
-                <a href="assets/resume.pdf" class="btn btn-outline" download="MaxMiller_Resume.pdf" data-i18n="contact_resume">↓ Download Resume</a>
+                <a href="assets/resume.pdf" class="btn btn-outline" download="Vipin_Kumar_Resume.pdf" data-i18n="contact_resume">↓ Download Resume</a>
                 <div class="contact-info">
-                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=programmers378@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-row"><span class="icon-box">✉</span> programmers378@gmail.com</a>
-                    <a href="https://miniwicket.ir" class="contact-row"><span class="icon-box">🌐</span> miniwicket.ir</a>
-                    <a href="https://github.com/cmd-3324" class="contact-row" target="_blank" rel="noopener"><span class="icon-box"><svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></span> <span data-i18n="contact_github">GitHub Profile</span></a>
-                    <a href="https://www.patreon.com/cw/MaxMiller573" class="contact-row" target="_blank" rel="noopener"><span class="icon-box"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-label="Patreon"><path d="M15.58 2.25c-4.27 0-7.73 3.46-7.73 7.73 0 4.24 3.46 7.7 7.73 7.7 4.28 0 7.74-3.46 7.74-7.7 0-4.27-3.46-7.73-7.74-7.73zm-9.18 2.7h2.79v12.92H6.4V4.95zm6.05 4.33c2.14 0 3.88 1.73 3.88 3.87 0 2.14-1.74 3.87-3.88 3.87-2.15 0-3.89-1.73-3.89-3.87 0-2.14 1.74-3.87 3.89-3.87z"/></svg></span> Patreon</a>
-                    <a href="https://bsky.app/profile/maxmiller2005.bsky.social" class="contact-row" target="_blank" rel="noopener"><span class="icon-box"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-label="Bluesky"><path d="M5.7 3.02C8.05 4.79 10.59 8.38 11.5 10.3c.91-1.92 3.45-5.51 5.8-7.28 1.7-1.28 4.45-2.26 4.45.87 0 .63-.36 5.26-.57 6-.73 2.57-3.39 3.23-5.76 2.77 4.14.8 5.21 3.46 2.94 6.12-4.31 5.04-6.24-1.27-6.72-2.89-.09-.3-.13-.44-.14-.32-.01-.12-.05.02-.14.32-.48 1.62-2.4 7.93-6.72 2.89-2.27-2.66-1.2-5.32 2.94-6.12-2.37.46-5.03-.2-5.76-2.77-.21-.74-.57-5.37-.57-6 0-3.13 2.75-2.15 4.45-.87z"/></svg></span> Bluesky</a>
+                    <a href="mailto:vicky7230@gmail.com" class="contact-row"><span class="icon-box">✉</span> vicky7230@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/vipin-kumar-ba0540100/" class="contact-row" target="_blank" rel="noopener"><span class="icon-box">in</span> LinkedIn Profile</a>
+                    <a href="https://github.com/vicky7230" class="contact-row" target="_blank" rel="noopener"><span class="icon-box">⌘</span> GitHub Profile</a>
+                    <a href="https://medium.com/@vicky7230" class="contact-row" target="_blank" rel="noopener"><span class="icon-box">M</span> Medium</a>
                 </div>
             </div>
             <form class="contact-form" id="contactForm">
@@ -125,13 +149,12 @@
     </main>
     <footer class="footer">
         <div class="container footer-inner">
-            <span class="logo">MM</span>
+            <span class="logo">VK</span>
             <div class="footer-icons">
-                <a href="https://miniwicket.ir">🌐</a>
-                <a href="https://github.com/cmd-3324" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
-                <a href="https://www.patreon.com/cw/MaxMiller573" target="_blank" rel="noopener" aria-label="Patreon"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M15.58 2.25c-4.27 0-7.73 3.46-7.73 7.73 0 4.24 3.46 7.7 7.73 7.7 4.28 0 7.74-3.46 7.74-7.7 0-4.27-3.46-7.73-7.74-7.73zm-9.18 2.7h2.79v12.92H6.4V4.95zm6.05 4.33c2.14 0 3.88 1.73 3.88 3.87 0 2.14-1.74 3.87-3.88 3.87-2.15 0-3.89-1.73-3.89-3.87 0-2.14 1.74-3.87 3.89-3.87z"/></svg></a>
-                <a href="https://bsky.app/profile/maxmiller2005.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M5.7 3.02C8.05 4.79 10.59 8.38 11.5 10.3c.91-1.92 3.45-5.51 5.8-7.28 1.7-1.28 4.45-2.26 4.45.87 0 .63-.36 5.26-.57 6-.73 2.57-3.39 3.23-5.76 2.77 4.14.8 5.21 3.46 2.94 6.12-4.31 5.04-6.24-1.27-6.72-2.89-.09-.3-.13-.44-.14-.32-.01-.12-.05.02-.14.32-.48 1.62-2.4 7.93-6.72 2.89-2.27-2.66-1.2-5.32 2.94-6.12-2.37.46-5.03-.2-5.76-2.77-.21-.74-.57-5.37-.57-6 0-3.13 2.75-2.15 4.45-.87z"/></svg></a>
-                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=programmers378@gmail.com">✉</a>
+                <a href="mailto:vicky7230@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/vipin-kumar-ba0540100/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/vicky7230" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://medium.com/@vicky7230" target="_blank" rel="noopener">Medium</a>
             </div>
             <a href="#" class="btn btn-outline-sm" id="backToTop" data-i18n="back_to_top">↑ Back to top</a>
         </div>
@@ -140,3 +163,6 @@
     <script src="main.js"></script>
 </body>
 </html>
+
+
+

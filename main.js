@@ -41,6 +41,24 @@ if (themeToggle?.addEventListener) {
   });
 }
 
+// ---------- Responsive navigation ----------
+const menuToggle = document.getElementById("menuToggle");
+const siteNav = document.getElementById("siteNav");
+if (menuToggle && siteNav) {
+  menuToggle.addEventListener("click", () => {
+    const isOpen = siteNav.classList.toggle("open");
+    menuToggle.setAttribute("aria-expanded", String(isOpen));
+    menuToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+  });
+  siteNav.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      siteNav.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.setAttribute("aria-label", "Open navigation");
+    });
+  });
+}
+
 // ---------- Scroll reveal ----------
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -51,6 +69,18 @@ const revealObserver = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.15 });
 document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+
+// ---------- Active section navigation ----------
+const sectionLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
+const sectionObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    sectionLinks.forEach(link => {
+      link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`);
+    });
+  });
+}, { rootMargin: "-30% 0px -60% 0px", threshold: 0 });
+document.querySelectorAll("main section[id]").forEach(section => sectionObserver.observe(section));
 
 // ---------- Contact form (EmailJS) ----------
 // ✅ REPLACE THESE THREE VALUES with your actual IDs

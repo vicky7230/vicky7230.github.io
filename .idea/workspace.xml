@@ -5,150 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5afc3a-acd6-437c-ae6c-01cad50532de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vicky7230.github.io.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/plugins.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/about-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/blog-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/client-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/client-slider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/contact-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/disqus-comments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/education-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/experience-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/google-analytics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/hero-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/portfolio-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/services-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/skills-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/team-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/testimonial-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/work-process-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/compress.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-10-android-architecture-patterns.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2024-02-25-demystifying-buffer-operator-in-kotlin-flows.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/about/author.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/about/signature.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/about/vipin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/backgrounds/bg-dots.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/backgrounds/education-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/backgrounds/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/backgrounds/team-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/arc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/flow-entities.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/post-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/post-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/post-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/post-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/post-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/post-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/search.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients-logo/client-logo-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients-logo/client-logo-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients-logo/client-logo-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients-logo/client-logo-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients-logo/client-logo-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/experience/agrim.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/experience/icon-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/experience/icon-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/experience/icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/experience/mildly.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/experience/moe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/experience/rapido.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/icons/design.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/icons/plan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/icons/print.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/dots-cyan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/dots-group-cyan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/dots-group-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/dots-group-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/dots-group-v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/dots-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/leaf-bg-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/leaf-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/leaf-cyan-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/leaf-cyan-lg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/leaf-cyan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/leaf-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/leaf-pink-round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/leaf-pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/leaf-yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/illustrations/page-title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/marker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/ipatient.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/ipt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/ipt2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/item-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/item-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/item-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/item-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/item-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/item-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/item-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/item-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/rapido.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/revu.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/sequelite.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/squel.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/sunny.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/team/member-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/team/member-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/team/member-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/testimonial/client-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/jQuery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/shuffle/shuffle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/slick/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/slick/fonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/slick/fonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/slick/fonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/slick/fonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/slick/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/slick/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/themify-icons/fonts/themify.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/themify-icons/fonts/themify.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/themify-icons/fonts/themify.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/themify-icons/fonts/themify.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/themify-icons/themify-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_common.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/templates/_about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/templates/_blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/templates/_hero-area.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/templates/_homepage.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/templates/_navigation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/templates/_portfolio.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,61 +51,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5716597182504675" />
-      <entry key="MS500" value="2.514360766987183" />
-      <entry key="S2" value="2.86305577119073" />
-      <entry key="S5" value="2.9438371681888054" />
-      <entry key="S10" value="2.9720839038770155" />
-      <entry key="S30" value="3.234158859378508" />
-      <entry key="S60" value="4.204318908395631" />
-      <entry key="M2" value="5.691014685681949" />
-      <entry key="M5" value="7.359889770749071" />
-      <entry key="M10" value="8.499523197755142" />
-      <entry key="M15" value="10.01132453624349" />
-      <entry key="M30" value="15.507350131161052" />
-      <entry key="H1" value="22.887129786705056" />
-      <entry key="H2" value="29.095992420323206" />
-      <entry key="H4" value="33.146814950170935" />
-      <entry key="D1" value="37.12894087005314" />
-      <entry key="W1" value="37.87394750108002" />
+      <entry key="MS100" value="1.0045554621920407" />
+      <entry key="MS500" value="1.791465008935137" />
+      <entry key="S2" value="4.679778432513394" />
+      <entry key="S5" value="9.639530114821074" />
+      <entry key="S10" value="17.194996405558868" />
+      <entry key="S30" value="41.01704436123004" />
+      <entry key="S60" value="59.23744787530049" />
+      <entry key="M2" value="74.13341812966556" />
+      <entry key="M5" value="86.51425863936754" />
+      <entry key="M10" value="91.83907604244827" />
+      <entry key="M15" value="94.78709967252048" />
+      <entry key="M30" value="101.72404347982102" />
+      <entry key="H1" value="109.88676830762657" />
+      <entry key="H2" value="116.55060298231997" />
+      <entry key="H4" value="120.85941881339568" />
+      <entry key="D1" value="125.07863585986254" />
+      <entry key="W1" value="125.86669680749496" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.6339675711206386E-227" />
-      <entry key="S10" value="5.610200106892947E-114" />
-      <entry key="S30" value="3.5746138110285863E-38" />
-      <entry key="S60" value="3.677940715947802E-19" />
-      <entry key="M2" value="1.3359891153340645E-9" />
-      <entry key="M5" value="7.982782765829374E-4" />
-      <entry key="M10" value="0.06875562599044865" />
-      <entry key="M15" value="0.3045099913657576" />
-      <entry key="M30" value="1.3506538680053926" />
-      <entry key="H1" value="2.8461884666496866" />
-      <entry key="H2" value="4.132247641342399" />
-      <entry key="H4" value="4.979245090439548" />
-      <entry key="D1" value="5.816377108719319" />
-      <entry key="W1" value="5.973417191355926" />
+      <entry key="S5" value="6.18176934621844E-232" />
+      <entry key="S10" value="3.450746323676726E-116" />
+      <entry key="S30" value="6.549488083138606E-39" />
+      <entry key="S60" value="1.5743229926957137E-19" />
+      <entry key="M2" value="8.740725401464419E-10" />
+      <entry key="M5" value="6.736776412858235E-4" />
+      <entry key="M10" value="0.06316218594516768" />
+      <entry key="M15" value="0.28776247129989724" />
+      <entry key="M30" value="1.3129868316710769" />
+      <entry key="H1" value="2.8062205869106647" />
+      <entry key="H2" value="4.103131317042513" />
+      <entry key="H4" value="4.961671893825214" />
+      <entry key="D1" value="5.812950787101714" />
+      <entry key="W1" value="5.972914374246579" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5151162618395713" />
-      <entry key="MS500" value="2.4936818729625805" />
-      <entry key="S2" value="2.8571128783458284" />
-      <entry key="S5" value="2.9413901039145633" />
-      <entry key="S10" value="2.9708479550042184" />
-      <entry key="S30" value="3.2336568359715483" />
-      <entry key="S60" value="4.203894511949789" />
-      <entry key="M2" value="5.690669493321439" />
-      <entry key="M5" value="7.360482175411314" />
-      <entry key="M10" value="8.56778067949234" />
-      <entry key="M15" value="10.314584614678026" />
-      <entry key="M30" value="16.855288186571332" />
-      <entry key="H1" value="25.730437028057068" />
-      <entry key="H2" value="33.226137592510355" />
-      <entry key="H4" value="38.12478966655723" />
-      <entry key="D1" value="42.945070027768054" />
-      <entry key="W1" value="43.84732829840016" />
+      <entry key="MS100" value="0.6596203147153162" />
+      <entry key="MS500" value="1.7056007138958464" />
+      <entry key="S2" value="4.643021858090141" />
+      <entry key="S5" value="9.599752382331085" />
+      <entry key="S10" value="17.13691661840987" />
+      <entry key="S30" value="40.95707143024927" />
+      <entry key="S60" value="59.19542727998758" />
+      <entry key="M2" value="74.10824132392172" />
+      <entry key="M5" value="86.50363042524367" />
+      <entry key="M10" value="91.89600777848449" />
+      <entry key="M15" value="95.06978463676136" />
+      <entry key="M30" value="103.03241781866684" />
+      <entry key="H1" value="112.68915578892718" />
+      <entry key="H2" value="120.651148933047" />
+      <entry key="H4" value="125.81957557456546" />
+      <entry key="D1" value="130.89129724790942" />
+      <entry key="W1" value="131.83956884743517" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
@@ -330,24 +190,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vicky/OneDrive/Desktop/MyPortfolio/assets/projects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "C:/Users/vicky/OneDrive/Desktop/MyPortfolio/assets/projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Console"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vicky\OneDrive\Desktop\MyPortfolio\assets\projects" />
@@ -399,6 +260,7 @@
       <workItem from="1493380452473" duration="663000" />
       <workItem from="1505535468963" duration="630000" />
       <workItem from="1794910168739" duration="7389000" />
+      <workItem from="1794920188955" duration="2357000" />
     </task>
     <servers />
   </component>
