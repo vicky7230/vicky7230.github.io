@@ -381,4 +381,5 @@ html[dir="rtl"] .badge-sm {
 
 @media (max-width: 860px) {
   #projects .project-card { grid-template-columns: 1fr; }
+  #open-source { grid-template-columns: 1fr; }
 }
