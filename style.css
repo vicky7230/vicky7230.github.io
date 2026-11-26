@@ -254,6 +254,8 @@ html[dir="rtl"] .contact-form textarea::placeholder {
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .hero, .about-grid, .contact, .project-card, .exp-card, .form-row { grid-template-columns: 1fr; }
+  .hero-media { grid-row: 1; }
+  .hero-text { grid-row: 2; }
   .hero-media { width: 100%; justify-self: stretch; }
   .hero-frame { max-width: 320px; margin: 0 auto; }
   .focus-grid, .case-grid { grid-template-columns: 1fr 1fr; }
